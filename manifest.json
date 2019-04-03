@@ -12,7 +12,7 @@
   },
   "name": "PZIG",
   "short_name": "Unzip/Inflate GZIPed text.",
-  "description": "Gets the user selected gzipped text block on the page displays the inflated/decoded string in the popup. Icons updated as per some user requests.",
+  "description": "Gets the user selected gzipped text on the page and displays the inflated/decoded string in the popup. New Icon per user request.",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
