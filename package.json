@@ -1,0 +1,26 @@
+{
+  "name": "pizg",
+  "version": "0.0.2",
+  "description": "Chrome Extension to Decrypt/Inflate gzipped XML and display in a popup",
+  "main": "does_not_exist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashisha7i/pizg.git"
+  },
+  "author": "Ashish Agnihotri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashisha7i/pizg/issues"
+  },
+  "homepage": "https://github.com/ashisha7i/pizg#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^4.2.0"
+  }
+}

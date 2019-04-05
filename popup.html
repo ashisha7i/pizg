@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="vkbeautify.js"></script>
+    <script src="popup.js"></script>
+    <style>
+	  .footer {
+        background-color: whitesmoke;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+	  button {
+		  background-color: rgb(51, 122, 183);
+		  border-color: rgb(46, 109, 164);
+		  border-radius: 4px;
+		  color: white;
+		  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	  }
+    </style>
+  </head>
+  <body>
+    <div id="status">
+      <textarea id="results" rows="30" cols="100"></textarea>
+    </div>
+    <div class="footer">
+      <div style="display: flex; justify-content: space-between;">
+		<div><button id="btnXml">Prettify XML</button>
+		</div>
+	</div>
+      <!-- <div>Issues? <a href="mailto:aagnihot@cisco.com">Drop me an email!</a></div> -->
+      <div>PIZG version 0.0.1-beta &nbsp;(a.k.a. Work In Progress and may have some bugs &#128521;).</div>
+    </div>
+  </body>
+</html>
